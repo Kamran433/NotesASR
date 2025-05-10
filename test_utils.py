@@ -2,7 +2,7 @@ import google.generativeai as genai
 from google.generativeai import GenerativeModel
 import re
 
-genai.configure(api_key="AIzaSyD2q1ALHLR8BE4tx513Hwu-MHDO-BG7faw")
+genai.configure(api_key=st.secrets['gemini-key'])
 model = GenerativeModel("models/gemini-2.5-flash-preview-04-17")
 
 def generate_test_questions(pdf_chunks, difficulty, q_type):
