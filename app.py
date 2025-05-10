@@ -30,7 +30,7 @@ from memory_map import render_memory_map_tab
 
 
 # Replace with your actual API key
-YOUTUBE_API_KEY = 'AIzaSyCsCjhLE5qeM4OP48CbqvoM3IQ5SOzSWno'
+YOUTUBE_API_KEY = st.secrets['youtube_key']
 
 def recognize_speech_from_mic():
     recognizer = sr.Recognizer()
