@@ -10,3 +10,4 @@ pydub
 SpeechRecognition
 PyMuPDF
 streamlit-webrtc
+google
