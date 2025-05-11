@@ -12,3 +12,4 @@ PyMuPDF
 streamlit-webrtc
 google-generativeai
 weasyprint
+libpango-1.0-0
